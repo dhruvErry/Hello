@@ -1,0 +1,82 @@
+@font-face {
+  font-family: myFont;
+  src: url(shic.ttf);
+}
+
+body {
+  background-color: rgb(24, 109, 61);
+}
+
+#taybil {
+  margin-left: 11%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+button {
+  background-color: darkgreen;
+  color: white;
+  margin-left: 47.8%;
+  font-family: myFont;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20pt;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#tTwo {
+  margin-left: 5%;
+}
+
+.editid {
+  -moz-border-radius: 30px; /* or 50% */
+  border-radius: 500px; /* or 50% */
+  font-size: 22px;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: rgb(24, 109, 61);
+  color: white;
+}
+
+#tThree {
+  margin-left: 5%;
+}
+
+#tFour {
+  margin-left: 5%;
+}
+
+#tFive {
+  margin-left: 5%;
+}
+
+#cards {
+  margin-top: 3%;
+  margin-left: 36%;
+}
+
+#hTwo {
+  margin-left: 7%;
+}
+
+.flip {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.flip:hover {
+  animation: flip 0.8s linear;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
